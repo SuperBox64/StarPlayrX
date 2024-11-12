@@ -6,7 +6,7 @@ Sirius XM streaming radio for iOS, macOS and iPadOS. StarPlayrX is accessible an
 
 X stands for ten. Back in 2009 StarPlayr was once on macOS, iOS, Windows and Windows Mobile. It was run by a team of 4 faithful engineers including myself. The startup was called NiceMac. A decade later, I decided to bring StarPlayrX to the app store. This time under my own name and 100% of it is open sourced.
 
-The Mac Catalyst version of StarPlayrX can be compiled by individuals. There will be macOS future releases, planned for this Fall.
+The Mac Catalyst version of StarPlayrX can be compiled by individuals or downloaded on StarPlayrX.com
 
 StarPlayrX is open source along with its two libraries StarPlayrRadioKit and SwifterLite. Anyone who is interested and has some experience with Swift can create their own StarPlayr.
 
