@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 import AVFoundation
-//import CameoKit
 import MediaPlayer
+
 extension UIImage {
     func withBackground(color: UIColor, opaque: Bool = true) -> UIImage {
         UIGraphicsBeginImageContextWithOptions(size, opaque, scale)

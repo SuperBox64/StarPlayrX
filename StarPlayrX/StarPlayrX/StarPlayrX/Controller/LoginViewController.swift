@@ -255,9 +255,11 @@ class LoginViewController: UIViewController {
                 runBlue(0)
             } else if g.imagechecksum == GetChecksum {
                 do {
+                    // ... existing code ...
                     if let readData = UserDefaults.standard.data(forKey: "channelDataXD"),
-                       let chData = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(readData),
-                       let cd = chData as? [String : Data], !cd.isEmpty {
+                       let chData = try NSKeyedUnarchiver.unarchivedObject(ofClass: NSDictionary.self, from: readData),
+                       let cd = chData as? [String: Data],
+                       !cd.isEmpty {
                         
                         g.ChannelData = cd
                         nextStep()
@@ -265,6 +267,7 @@ class LoginViewController: UIViewController {
                     } else {
                         runFailure(1)
                     }
+                    // ... existing code ...
                     
                 } catch {
                     runFailure(2)
@@ -276,8 +279,8 @@ class LoginViewController: UIViewController {
                 Async.api.CommanderData(endpoint: dataUrl, method: "large-art") { (data) in
                     autoreleasepool {
                         guard let d = data,
-                              let chData = try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(d),
-                              let cdata = chData as? [String : Data],
+                              let chData = try? NSKeyedUnarchiver.unarchivedObject(ofClass: NSDictionary.self, from: d),
+                              let cdata = chData as? [String: Data],
                               !cdata.isEmpty
                         else { runFailure(3); return }
                         
@@ -328,9 +331,9 @@ class LoginViewController: UIViewController {
         }
         
         self.prog(0.9, "Success")
-        usleep(100000)
+        //usleep(100000)
         self.finish()
-        usleep(100000)
+        //usleep(100000)
     }
     
     func prog(_ Float: Float, _ Text: String, animated: Bool = true) {
@@ -582,8 +585,8 @@ class LoginViewController: UIViewController {
         if let art = Sync.io.readLocalDataFile(filename: filename) {
             
             do {
-                if let d = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData( art ),
-                   let dict = (d as? [String : Data]) /* converts Any to [String : Data] */ {
+                if let d = try NSKeyedUnarchiver.unarchivedObject(ofClass: NSDictionary.self, from: art),
+                   let dict = d as? [String: Data] {
                     g.ChannelData = dict
                     
                     if process {

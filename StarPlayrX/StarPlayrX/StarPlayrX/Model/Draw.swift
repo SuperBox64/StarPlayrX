@@ -17,8 +17,15 @@ final class Draw {
     let iPhoneOffset = CGFloat(13) //kicks up some graphics
     let iPhoneXtraPx = CGFloat(18)
     let iPhoneNoXtra = CGFloat(0)
-    let iPhoneMaxPro = CGFloat(896.0)
-    let iPhoneXReg	 = CGFloat(812.0)
+    
+    let iPhone12ProMax = CGFloat(896.0)
+    let iPhone16ProMax = CGFloat(956.0)
+    let iPhone14ProMax = CGFloat(932.0) //Also 16Plus
+    let iPhone16Pro    = CGFloat(852.0)
+
+    let iPhone16       = CGFloat(852.0)
+    let iPhoneX	       = CGFloat(812.0)
+
     let mainGray     = UIColor(displayP3Red: 35 / 255, green: 37 / 255, blue: 39 / 255, alpha: 1.0)
     let shadowColor	 = UIColor(displayP3Red: 35 / 2 / 255, green: 37 / 2 / 255, blue: 39 / 2 / 255, alpha: 1.0)
     let buttonOffset = CGFloat(30)
@@ -133,10 +140,15 @@ final class Draw {
         
         //MARK: Here is we are checking if the user as an iPhone X (it has 18 more pixels in height / Status bar)
         
-        let maxPro = iPhoneHeight == iPhoneMaxPro
-        let iPhonX = iPhoneHeight == iPhoneXReg
-        
-        isIphoneX = (maxPro || iPhonX) ? iPhoneXtraPx : iPhoneNoXtra
+        let proMax = iPhoneHeight == iPhone14ProMax
+        let maxPro = iPhoneHeight == iPhone12ProMax
+        let iPhonX = iPhoneHeight == iPhoneX
+        let iPhon16 = iPhoneHeight == iPhone16
+        let iPhon16pro = iPhoneHeight == iPhone16Pro
+
+        let proMax16 = iPhoneHeight == iPhone16ProMax
+
+        isIphoneX = (maxPro || iPhonX || proMax || iPhon16 || proMax16 || iPhon16pro) ? iPhoneXtraPx : iPhoneNoXtra
         frameY = iPhoneHeight - isIphoneX
         self.iPhoneY = frameY - NavY - TabY
         
@@ -145,8 +157,8 @@ final class Draw {
         //Drawing code constants
         switch iPhoneHeight {
             
-            //iPhone 12 Pro Max
-            case 926.0 :
+            //iPhone 12 Pro Max, 14 Pro Max
+            case 926.0, 932.0, 956.0:
                 labelOffset = 200
                 labelOffset2 = 100
                 labelHeight = 90
@@ -156,8 +168,8 @@ final class Draw {
                 playPauseY = 80
                 playPauseScale = 2
     
-            //iPhone 12 Pro
-            case 844.0:
+            //iPhone 12 Pro, iPhone 16, iPhone 16 Pro:
+            case 844.0, 852.0, 874.0:
                 labelOffset = 175
                 labelOffset2 = 85
                 labelHeight = 90
@@ -200,7 +212,7 @@ final class Draw {
                 playPauseY = 70
                 playPauseScale = 2
             
-            //iPhone 7/8/SE 2nd Gen
+            //iPhone 7/8/SE 2nd Gen/SE 3rd Gen
             case 667.0 :
                 labelOffset = 80
                 labelOffset2 = 0
@@ -307,8 +319,8 @@ final class Draw {
         //MARK: Common constants - for iPhone and iPad
         switch (iPhoneHeight, isPhone) {
             
-            //MARK: iPhone 12 Pro and 12 Pro Max
-            case  (844.0,true), (926.0,true) :
+            //MARK: iPhone 12 Pro and 12 Pro Max, 14 Pro Max
+            case (844.0,true), (874.0, true), (852.0, true), (926.0,true), (932.0, true), (956.0, true):
                 AlbumArtSizeX = drawView.frame.size.width
                 AlbumArtSizeY = drawView.frame.size.height
                 centerX = drawView.frame.size.width / 2

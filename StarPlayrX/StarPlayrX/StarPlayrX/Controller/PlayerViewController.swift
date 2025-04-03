@@ -499,9 +499,9 @@ class PlayerViewController: UIViewController, AVRoutePickerViewDelegate  {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        if let _  = Artist?.text?.isEmpty {
+        //if let _  = Artist?.text?.isEmpty {
             Player.shared.syncArt()
-        }
+        //}
         
     #if !targetEnvironment(simulator)
         if !g.demomode && !isMacCatalystApp, let ap2 = ap2volume?.getSoda()  {

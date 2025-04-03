@@ -24,10 +24,10 @@
 #endif /* GTCola_h */
 
 
-//! Project version number for GTCola.
+// Project version number for GTCola.
 FOUNDATION_EXPORT double GTColaVersionNumber;
 
-//! Project version string for GTCola.
+// Project version string for GTCola.
 FOUNDATION_EXPORT const unsigned char GTColaVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GTCola/PublicHeader.h>

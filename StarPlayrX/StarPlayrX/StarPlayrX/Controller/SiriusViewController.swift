@@ -11,7 +11,7 @@ import AVKit
 
 class SiriusViewController: UITableViewController {
     var pdtTimer:    Timer? = nil
-//    var streamTimer: Timer? = nil
+    var streamTimer: Timer? = nil
 
     let g = Global.obj
     let p = Player.shared
@@ -19,22 +19,24 @@ class SiriusViewController: UITableViewController {
     override var preferredScreenEdgesDeferringSystemGestures: UIRectEdge { .bottom }
     override var prefersHomeIndicatorAutoHidden : Bool { true }
     
-//    func checkServer() {
-//        let pinpoint = "\(g.insecure)\(g.localhost):\(p.port)/api/v3/ping"
-//        Async.api.Text(endpoint: pinpoint) { pong in
-//            guard let ping = pong else { self.launchServer(); return }
-//            ping == "pong" ? ()/* Do Nothing */ : self.launchServer()
-//        }
-//    }
+    func checkServer() {
+        let pinpoint = "\(g.insecure)\(g.localhost):\(p.port)/api/v3/ping"
+        Async.api.Text(endpoint: pinpoint) { pong in
+            guard let ping = pong else { self.launchServer(); return }
+            ping == "pong" ? () /* do nothing */ : self.launchServer()
+        }
+    }
     
-//    func launchServer() {
-//        p.autoLaunchServer(){ success in
-//            //Do nothing
-//        }
-//    }
+    func launchServer() {
+        p.autoLaunchServer(){ success in
+            if !success {
+                print("Server relaunch failed")
+            }
+        }
+    }
     
     @objc func AppEnteredForeground(_ notification: Notification) {
-        //checkServer()
+        checkServer()
     }
     
     override func viewDidLoad() {
@@ -42,8 +44,8 @@ class SiriusViewController: UITableViewController {
         
         NotificationCenter.default.addObserver(self, selector: #selector(AppEnteredForeground(_:)), name: Notification.Name.willEnterForegroundNotification, object: nil)
         
-        g.navBarWidth  = self.navigationController!.navigationBar.frame.width
-        g.tabBarHeight = self.tabBarController!.tabBar.frame.height
+        g.navBarWidth  = self.navigationController?.navigationBar.frame.width ?? 320
+        g.tabBarHeight = self.tabBarController?.tabBar.frame.height ?? 40
         
         self.tableView.rowHeight = 60.0
         tableView.separatorColor = UIColor.black
@@ -145,6 +147,8 @@ class SiriusViewController: UITableViewController {
     }
     
     @objc func SPXStream() {
+        checkServer()
+        
         let ps = p.self
         
         if (ps.state == .playing || ps.state == .interrupted) && ps.player.isDead  {
@@ -178,13 +182,13 @@ class SiriusViewController: UITableViewController {
     func restartPDT() {
         DispatchQueue.main.async { [weak self] in
             guard let self = self else { return }
-            self.pdtTimer = Timer.scheduledTimer(timeInterval: 30.0, target: self, selector: #selector(self.SPXCache), userInfo: nil, repeats: true)
+            self.pdtTimer = Timer.scheduledTimer(timeInterval: 20.0, target: self, selector: #selector(self.SPXCache), userInfo: nil, repeats: true)
         }
         
-//        DispatchQueue.main.async { [weak self] in
-//            guard let self = self else { return }
-//            self.streamTimer = Timer.scheduledTimer(timeInterval: 10.0, target: self, selector: #selector(self.SPXStream), userInfo: nil, repeats: true)
-//        }
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
+            self.streamTimer = Timer.scheduledTimer(timeInterval: 10.0, target: self, selector: #selector(self.SPXStream), userInfo: nil, repeats: true)
+        }
     }
     
     deinit {
@@ -320,10 +324,10 @@ class SiriusViewController: UITableViewController {
     }
     
     
-    override func tableView(_ tableView : UITableView, didSelectRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let currentCell = tableView.cellForRow(at: indexPath)! as UITableViewCell
-        let text = currentCell.textLabel?.text
+        guard let currentCell = tableView.cellForRow(at: indexPath) else { return }
+        guard let text = currentCell.textLabel?.text else { return }
         
         currentCell.isSelected = true
         currentCell.accessoryType = .checkmark
@@ -332,6 +336,6 @@ class SiriusViewController: UITableViewController {
         currentCell.contentView.backgroundColor = UIColor(displayP3Red: 20 / 255, green: 22 / 255, blue: 24 / 255, alpha: 1.0) //iOS 13
         currentCell.textLabel?.textColor = UIColor.lightGray
         
-        g.categoryTitle = text!
+        g.categoryTitle = text
     }
 }

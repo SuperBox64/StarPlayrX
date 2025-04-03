@@ -26,4 +26,4 @@ StarPlayrX is not affiliated with SiriusXM. StarPlayr trademark is owned by Nice
 
 MIT License
 
-"Don't be a Slacker, be a Star Player."
+"Don't be a Slacker, be a Star Player. StarPlayrX"

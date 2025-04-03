@@ -88,14 +88,17 @@ internal class Async {
     //MARK: Post
     internal func Post(request: Dictionary<String, Any>, endpoint: String, method: String, TupleHandler: @escaping TupleHandler ) {
         guard let url = URL(string: endpoint) else { TupleHandler(.none); return }
- 
+
         var urlReq = URLRequest(url: url)
         urlReq.httpBody = try? JSONSerialization.data(withJSONObject: request, options: .prettyPrinted)
+        let userAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+        urlReq.setValue(userAgent, forHTTPHeaderField: "User-Agent")
         urlReq.addValue("application/json", forHTTPHeaderField: "Content-Type")
         urlReq.httpMethod = "POST"
         urlReq.timeoutInterval = TimeInterval(60)
-        urlReq.setValue("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15", forHTTPHeaderField: "User-Agent")
-        
+        //urlReq.setValue("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15", forHTTPHeaderField: "User-Agent")
+
+      
         let task = URLSession.shared.dataTask(with: urlReq ) { ( returndata, resp, error ) in
             
             guard let rdata = returndata else { TupleHandler( (message: method + " was failed.", success: false, data: Data(), response: resp as? HTTPURLResponse ) as? PostReturnTuple ); return }
