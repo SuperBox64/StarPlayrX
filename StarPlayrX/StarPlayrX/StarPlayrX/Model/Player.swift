@@ -114,11 +114,14 @@ final class Player {
         let p = self.player
         p.volume = 0
         p.replaceCurrentItem(with: AVPlayerItem(asset:AVAsset(url: url)))
+        
+        print("stream and set session to active")
+        try? avSession.setActive(true)
+        
         p.playImmediately(atRate: 1.0)
         
         p.fadeVolume(from: 0, to: 1, duration: Float(2.5))
       
-
 //        var spx = false
 
 //        for i in 0...20 {
@@ -156,10 +159,7 @@ final class Player {
         p.fadeVolume(from: 1, to: 0, duration: Float(wait))
         state = .buffering
         
-        if #available(iOS 13.0, *) {
-            p.currentItem?.automaticallyPreservesTimeOffsetFromLive = true
-        }
-
+        p.currentItem?.automaticallyPreservesTimeOffsetFromLive = true
         p.currentItem?.preferredForwardBufferDuration = 0
         p.currentItem?.canUseNetworkResourcesForLiveStreamingWhilePaused = true
         p.automaticallyWaitsToMinimizeStalling = true
@@ -179,11 +179,7 @@ final class Player {
         let p = self.player
         
         p.currentItem?.preferredForwardBufferDuration = 0
-        
-        if #available(iOS 13.0, *) {
-            p.currentItem?.automaticallyPreservesTimeOffsetFromLive = true
-        }
-        
+        p.currentItem?.automaticallyPreservesTimeOffsetFromLive = true
         p.currentItem?.canUseNetworkResourcesForLiveStreamingWhilePaused = true
         p.automaticallyWaitsToMinimizeStalling = true
         p.appliesMediaSelectionCriteriaAutomatically = true
@@ -418,13 +414,9 @@ final class Player {
         nowPlayingInfo[MPNowPlayingInfoPropertyDefaultPlaybackRate] = 1.0
         
         if self.player.rate == 1 {
-            if #available(iOS 13.0, *) {
-                nowPlayingInfoCenter.playbackState = .playing
-            }
+            nowPlayingInfoCenter.playbackState = .playing
         } else {
-            if #available(iOS 13.0, *) {
-                nowPlayingInfoCenter.playbackState = .paused
-            }
+            nowPlayingInfoCenter.playbackState = .paused
         }
         nowPlayingInfoCenter.nowPlayingInfo = nowPlayingInfo
     }
@@ -460,15 +452,20 @@ final class Player {
     
     let avSession = AVAudioSession.sharedInstance()
     
+    func endRemoteTransportControls() {
+        print("End remote controls")
+        try? avSession.setActive(false)
+    }
     ///These are used on the iPhone's lock screen
     ///Command Center routines
     func setupRemoteTransportControls(application: UIApplication) {
         do {
+            print("Setup remote controls")
             avSession.accessibilityPerformMagicTap()
             avSession.accessibilityActivate()
             try avSession.setPreferredIOBufferDuration(0)
             try avSession.setCategory(.playback, mode: .default, policy: .longFormAudio, options: [])
-            try avSession.setActive(true)
+            try avSession.setActive(false)
             
         } catch {
             print(error)

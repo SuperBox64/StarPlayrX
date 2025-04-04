@@ -475,11 +475,7 @@ final class Draw {
             let buttonFrame = CGRect(x: 0, y: 0, width: 50, height: 50)
             let airplayButton = AVRoutePickerView(frame: buttonFrame)
             
-            if #available(iOS 13.0, *) {
-                airplayButton.prioritizesVideoDevices = false
-            }
-            //airplayButton.delegate = self
-
+            airplayButton.prioritizesVideoDevices = false
             airplayButton.activeTintColor = UIColor.systemBlue
             airplayButton.tintColor = .systemBlue
             airplayView.addSubview(airplayButton)

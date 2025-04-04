@@ -122,9 +122,7 @@ class PlayerViewController: UIViewController, AVRoutePickerViewDelegate  {
     override func loadView() {
         super.loadView()
         
-        if #available(iOS 13.0, *) {
-            isMacCatalystApp = ProcessInfo.processInfo.isMacCatalystApp
-        }
+        isMacCatalystApp = ProcessInfo.processInfo.isMacCatalystApp
         
         var isPhone = true
         var NavY = CGFloat(0)
@@ -627,9 +625,7 @@ class PlayerViewController: UIViewController, AVRoutePickerViewDelegate  {
     func addSliderAction() {
         VolumeSlider.addTarget(self, action: #selector(VolumeChanged(slider:event:)), for: .valueChanged)
         VolumeSlider.isContinuous = true
-        if #available(iOS 13.0, *) {
-            VolumeSlider.accessibilityRespondsToUserInteraction = true
-        }
+        VolumeSlider.accessibilityRespondsToUserInteraction = true
         VolumeSlider.accessibilityHint = "Volume Slider"
     }
     
