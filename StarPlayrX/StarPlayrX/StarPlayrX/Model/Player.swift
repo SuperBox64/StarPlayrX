@@ -258,16 +258,6 @@ final class Player {
     func updateNowPlayingX(_ animated: Bool = true) {
         let g = Global.obj
         
-        func demoImage() -> UIImage? {
-            if var img = UIImage(named: "starplayr_placeholder") {
-                img = img.withBackground(color: UIColor(displayP3Red: 19 / 255, green: 20 / 255, blue: 36 / 255, alpha: 1.0))
-                img = self.resizeImage(image: img, targetSize: CGSize(width: 1440, height: 1440))
-                return img
-            } else {
-                return nil
-            }
-        }
-        
         func displayArt(image: UIImage?) {
             if var img = image {
                 img = img.withBackground(color: UIColor(displayP3Red: 19 / 255, green: 20 / 255, blue: 36 / 255, alpha: 1.0))
@@ -288,9 +278,6 @@ final class Player {
                 
                 g.NowPlaying.image = img
                 self.setnowPlayingInfo(channel: g.NowPlaying.channel, song: g.NowPlaying.song, artist: g.NowPlaying.artist, imageData:img)
-            } else if let i = demoImage() {
-                g.NowPlaying.image = i
-                self.setnowPlayingInfo(channel: g.NowPlaying.channel, song: g.NowPlaying.song, artist: g.NowPlaying.artist, imageData: i)
             }
             
             if animated {
@@ -300,23 +287,16 @@ final class Player {
             }
         }
         
-        //Demo Mode
-        if !g.demomode {
-            //Get album art
-            if g.NowPlaying.albumArt.contains("http") {
-                Async.api.Imagineer(endpoint: g.NowPlaying.albumArt, ImageHandler: { (img) -> Void in
-                    displayArt(image: img)
-                })
-            } else {
-                //Fix image sizing
-                Async.api.Imagineer(endpoint: g.NowPlaying.channelArt, ImageHandler: { (img) -> Void in
-                    displayArt(image: img?.addImagePadding(x: 20, y: 200))
-                })
-            }
+        //Get album art
+        if g.NowPlaying.albumArt.contains("http") {
+            Async.api.Imagineer(endpoint: g.NowPlaying.albumArt, ImageHandler: { (img) -> Void in
+                displayArt(image: img)
+            })
         } else {
-            if let image = demoImage() {
-                displayArt(image: image)
-            }
+            //Fix image sizing
+            Async.api.Imagineer(endpoint: g.NowPlaying.channelArt, ImageHandler: { (img) -> Void in
+                displayArt(image: img?.addImagePadding(x: 20, y: 200))
+            })
         }
     }
 

@@ -19,7 +19,6 @@ internal class Global  {
     let domain = "starplayrx.com"
     let secureport = "443"
     let binbytes = "19008675309"
-    let demoname = "Demostar"
     let websitedown = "403"
     let secure = "https://"
     let insecure = "http://"
@@ -28,7 +27,6 @@ internal class Global  {
     let voiceOverQueue = "VoiceOverQueue"
 
     //MARK: Variables
-    var demomode = false
     var imagechecksum = ""
     var Username = ""
     var Password = ""

@@ -116,10 +116,7 @@ class LoginViewController: UIViewController {
         let endpoint = g.insecure + g.local + ":" + String(p.port)  + "/api/v3/login"
         let method = "login"
         let request = ["user":g.Username,"pass":g.Password] as Dictionary
-    
-        //Turns on Demo Mode
-        g.demomode = g.Username.contains(g.demoname)
-    
+        
         func failureMessage() {
             self.displayError(title: "Network error", message: "Check your internet connection and try again", action: "OK")
         }
@@ -250,10 +247,8 @@ class LoginViewController: UIViewController {
                 UserDefaults.standard.removeObject(forKey: "channelDataXD")
                 UserDefaults.standard.removeObject(forKey: "largeChecksumXD")
             }
-            
-            if g.demomode {
-                runBlue(0)
-            } else if g.imagechecksum == GetChecksum {
+           
+            if g.imagechecksum == GetChecksum {
                 do {
                     // ... existing code ...
                     if let readData = UserDefaults.standard.data(forKey: "channelDataXD"),
