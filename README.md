@@ -1,8 +1,11 @@
 # 🚨 StarPlayrX 1.3.1
-## macOS 10.15
-### Doomsday Edition
+- macOS 10.15
+- Doomsday Edition
+
+## Licensing
 - StarPlayr Trademark is owned by NiceMac LLC
 - Licensed exclusively to StarPlayrX.com
+- NiceMac LLC is not associated with SiriusXM, Pandora or its subsidiaries
 
 ## System Requirements
 - macOS 10.15 (Catalina) and later
