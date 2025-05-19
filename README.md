@@ -1,7 +1,7 @@
 # 🚨 StarPlayrX macOS 1.3.1
 ## Doomsday Release
 - This isn't the first time Gary
-- Remember the first StarPlayr Nicemac LLC
+- Remember the Titan by NiceMac
 
 ## System Requirements
 - macOS 10.15 (Catalina) and later
