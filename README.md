@@ -36,4 +36,4 @@
 ## 📦 Deployment
 - Github Releases
 
-**Full Changelog**: https://github.com/SuperBox64/StarPlayrX/commits/1.3.1
+**StarPlayrX Doomsday**: https://starplayrx.com
