@@ -8,7 +8,7 @@
 
 # 📜 StarPlayrX Source Code License
 
-> **Copyright © 2025, Todd Bruss. All Rights Reserved.**
+> **Copyright © 2025, StarPlayrX.com, All Rights Reserved.**
 
 ## 🔍 Comprehensive Project Overview
 
@@ -32,4 +32,4 @@
 
 ---
 
-**⚠️ Source Code: 100% Original Work by Todd Bruss**
+**⚠️ Source Code: 100% Original Work by StarPlayrX.com**
