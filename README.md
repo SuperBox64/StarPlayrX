@@ -1,7 +1,9 @@
 # 🚨 StarPlayrX macOS 1.3.1
 ## Doomsday Release
-- SiriusXM can beat down a star player
-- It will always get back up
+- SiriusXM beat down a Star Player
+- This isn't the first time
+- History always repeats itself
+- Remember the first StarPlayr Nicemac (c) 2009
 
 ## System Requirements
 - macOS 10.15 (Catalina) and later
