@@ -1,7 +1,7 @@
 # 🚨 StarPlayrX macOS 1.3.1
 ## Doomsday Release
-- This isn't the first time Gary
-- Remember the Titan by NiceMac
+- StarPlayr Trademark is owned by NiceMac LLC
+- Licensed exclusively to StarPlayrX.com
 
 ## System Requirements
 - macOS 10.15 (Catalina) and later
