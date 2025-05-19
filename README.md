@@ -1,5 +1,4 @@
-# 🚨 StarPlayrX macOS 1.3.1
-## Doomsday Release
+# 🚨 StarPlayrX macOS 1.3.1 Doomsday
 - StarPlayr Trademark is owned by NiceMac LLC
 - Licensed exclusively to StarPlayrX.com
 
@@ -42,4 +41,4 @@
 
 **StarPlayrX Doomsday**: https://starplayrx.com
 
-(c) 2026 New Avengers DoomsDay, The Multiverse is unraveling 
+Don't be a slacker, be a star player.
