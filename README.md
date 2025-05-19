@@ -35,6 +35,6 @@
 
 ## 📦 Deployment
 - Signed and Notarized by Apple
-- Github Releases
+- Available on Github Releases Side Bar
 
 **StarPlayrX Doomsday**: https://starplayrx.com
