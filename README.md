@@ -1,37 +1,40 @@
-# 🚨 StarPlayrX Removed from App Store by SiriusXM
+# 🚨 StarPlayrX Mac Catalyst Release
 
-## Clarification of Ownership and Integrity
+## System Requirements
+- macOS 10.15 (Catalina) and later
+- Mac with Apple Silicon or Intel processor
+- Valid SiriusXM subscription
 
-**Official Statement:** [https://starplayrx.com](https://starplayrx.com)
+## 🖥️ Interface Design
+- Native Mac Catalyst application
+- Unified sidebar and title bar design
+- Adaptive layout for various Mac screen sizes
+- Optimized for both large displays and smaller MacBook screens
 
----
-Open the SPX workspace in Xcode 16
----
+## 🌟 Key Features
+- Seamless SiriusXM radio streaming
+- Light and dark mode support
+- Efficient resource management
+- 100% VoiceOver compatibility
+- Minimal network resource utilization
 
-# 📜 StarPlayrX Source Code License
+## 🔧 Technical Specifications
+- Primary Language: Swift (90%)
+- Secondary Language: Objective-C (10%)
+- Platforms: macOS, iOS
+- Development: Xcode 16 Workspace
 
-> **Copyright © 2025, StarPlayrX.com, All Rights Reserved.**
+## 🚀 Performance Highlights
+- Low latency streaming
+- Minimal CPU and memory footprint
+- Smooth playback across network conditions
 
-## 🔍 Project Overview
+## ⚠️ Usage Notes
+- Requires active SiriusXM subscription
+- Internet connection mandatory for streaming
 
-| Category | Key Point | Details | Status |
-|----------|-----------|---------|--------|
-| **Ownership** | Original Author | Todd Bruss | 100% Exclusive |
-| **Trademark** | StarPlayrX Brand | Owned by NiceMac LLC | Registered |
-| **Source Code Ownership** | Intellectual Rights | Owned by NiceMac LLC and StarPlayrX | Confirmed |
-| **Legal Standing** | Intellectual Property | Fully Protected | Zero Infringement |
-| **SiriusXM Involvement** | Rights & Authorship | No Claims | Unwarranted |
-| **Code Origin** | Development | Solely Created by Todd Bruss | Confirmed |
-| **Language Composition** | Source Code | 90% Swift, 10% Objective-C | Verified |
-| **Accessibility** | VoiceOver Compatibility | 100% Apple VoiceOver Support | Certified |
-| **Platforms** | Supported Systems | macOS, iOS | Full Support |
-| **Usage Terms** | Permitted Actions | Personal Study, Educational Review | Allowed |
-| **Restrictions** | Prohibited Actions | Unauthorized Claims, Misrepresentation | Enforced |
-| **Accessibility** | Screen Reader Support | 100% VoiceOver Compatible | Full Compliance |
-| **Official Website** | Statement Location | [https://starplayrx.com](https://starplayrx.com) | Active |
-| **Contact** | Communication | Direct Inquiries Preferred | Open |
-| **Repository** | Source Location | [GitHub StarPlayrX](https://github.com/StarPlayrX/StarPlayrX) | Active |
+## 📦 Deployment
+- App Store Availability: [Redacted]
+- Direct Distribution: Available via Github releases
 
----
-
-**⚠️ Source Code: 100% Original Work by StarPlayrX.com**
+**Full Changelog**: https://github.com/SuperBox64/StarPlayrX/commits/1.3.1
