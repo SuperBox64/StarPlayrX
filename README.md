@@ -1,63 +1,67 @@
-# StarPlayrX has been removed from the App Store
-## Following actions from SiriusXM Holdings Inc.
+# 🚨 StarPlayrX Has Been Removed from the App Store
 
-See Official Statement Regarding App Store Removal here:
-https://starplayrx.com
+## Following Actions from SiriusXM Holdings Inc.
 
-# StarPlayrX Source Code License
+**Official Statement:** [View Removal Statement](https://starplayrx.com)
 
-Copyright (c) 2025, Todd Bruss. All Rights Reserved.
+---
 
-## Preamble
+# 📜 StarPlayrX Source Code License
 
-The source code for StarPlayrX is made available for personal review and educational purposes under strict conditions.
+> **Copyright © 2025, Todd Bruss. All Rights Reserved.**
 
-## 1. Licensing Terms
+## 🔍 Preamble
+
+The source code for StarPlayrX is made available for **personal review and educational purposes** under strict conditions.
+
+## 1. 📋 Licensing Terms
 
 ### a) Viewing and Personal Study
-- The source code may be viewed and studied for personal, non-commercial purposes.
-- Downloading or accessing the code does not grant any rights to use, modify, or distribute.
+- 👀 Source code may be viewed and studied for personal, non-commercial purposes
+- 🚫 Downloading does **not** grant rights to use, modify, or distribute
 
 ### b) Restrictions
-- Commercial use is strictly prohibited without explicit written permission.
-- Redistribution, in whole or in part, is not permitted.
-- Creating derivative works is not allowed without prior written consent.
+- 💼 Commercial use is **strictly prohibited** without explicit written permission
+- 🔒 Redistribution is not permitted
+- 🚧 No derivative works allowed without prior consent
 
-## 2. Permissions
+## 2. 🔑 Permissions
 
 ### a) Limited Use
-- Individuals may review the source code for educational or personal understanding.
-- No executable or derivative work may be created from this source code.
+- 📚 Review for educational or personal understanding only
+- ⛔ No executable or derivative work permitted
 
-## 3. Intellectual Property
+## 3. 💡 Intellectual Property
 
-### a) Copyright
-- All intellectual property rights remain exclusively with Todd Bruss.
-- The source code is protected by copyright laws.
+### a) Copyright Protection
+- 👤 All rights exclusively reserved by Todd Bruss
+- ⚖️ Source code protected by copyright laws
 
-## 4. Disclaimer of Warranty
+## 4. ⚠️ Disclaimer of Warranty
 
 ### a) "AS IS" Provision
-- The source code is provided "as is" without any warranties.
-- The author makes no guarantees about the code's functionality, reliability, or suitability.
+- 🛡️ Provided without any warranties
+- 🤷‍♂️ No guarantees of functionality or suitability
 
 ### b) Limitation of Liability
-- The author shall not be liable for any damages arising from the use or inability to use the source code.
+- 🚫 No liability for damages from use or inability to use
 
-## 5. Termination
+## 5. 🏁 Termination
 
 ### a) Immediate Revocation
-- The author reserves the right to revoke access to the source code at any time.
-- Any unauthorized use will result in immediate termination of access.
+- 🔒 Right to revoke access at any time
+- ⚔️ Unauthorized use results in immediate termination
 
-## 6. Compliance
+## 6. 📝 Compliance
 
 ### a) Legal Consequences
-- Any violation of these terms may result in legal action.
-- Unauthorized use, distribution, or modification is strictly prohibited.
+- ⚖️ Violations may result in legal action
+- 🚫 Unauthorized use strictly prohibited
 
-## 7. Contact
+## 7. 📞 Contact
 
-For permissions, inquiries, or licensing requests, please contact the author at the GitHub repository: https://github.com/StarPlayrX/StarPlayrX
+**Inquiries:** [GitHub Repository](https://github.com/StarPlayrX/StarPlayrX)
 
-**By accessing this source code, you acknowledge that you have read, understood, and agree to these terms.**
+---
+
+**⚠️ By accessing this source code, you agree to these terms.**
