@@ -1,4 +1,5 @@
-# 🚨 StarPlayrX macOS 1.3.1 Doomsday Release
+# 🚨 StarPlayrX macOS 1.3.1
+- Doomsday Release
 
 ## System Requirements
 - macOS 10.15 (Catalina) and later
