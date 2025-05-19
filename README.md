@@ -1,7 +1,7 @@
 # 🚨 StarPlayrX macOS 1.3.1
 ## Doomsday Release
 - SiriusXM beat down a Star Player
-- This isn't the first time
+- This isn't the first time Gary
 - History always repeats itself
 - Remember the first StarPlayr Nicemac (c) 2009
 
