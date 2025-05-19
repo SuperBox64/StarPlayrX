@@ -34,6 +34,7 @@
 - Internet connection mandatory for streaming
 
 ## 📦 Deployment
+- Signed and Notarized by Apple
 - Github Releases
 
 **StarPlayrX Doomsday**: https://starplayrx.com
