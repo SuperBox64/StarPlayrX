@@ -1,8 +1,8 @@
 # 🚨 StarPlayrX Removed from App Store
 
-## SiriusXM Holdings Inc. Action
+## Clarification of Ownership and Integrity
 
-**Official Statement:** [View Removal Details](https://starplayrx.com)
+**Important Notice:** No Infringement Occurred
 
 ---
 
@@ -10,7 +10,24 @@
 
 > **Copyright © 2025, Todd Bruss. All Rights Reserved.**
 
-## 🔍 Project Specifications
+## 🔍 Ownership Clarification
+
+| Key Point | Details |
+|-----------|---------|
+| **Original Author** | Todd Bruss |
+| **Code Ownership** | 100% Exclusively Todd Bruss |
+| **SiriusXM Involvement** | No Rights, No Authorship |
+| **Legal Status** | Zero Confirmed Infringement |
+
+## 🛡️ Integrity Statement
+
+| Aspect | Confirmation |
+|--------|--------------|
+| **Code Origin** | Entirely Original Work |
+| **Development** | Solely Created by Todd Bruss |
+| **Legal Compliance** | Maintained Throughout Project Lifecycle |
+
+## 📋 Project Specifications
 
 | Technical Detail | Description |
 |-----------------|-------------|
@@ -18,47 +35,29 @@
 | **Accessibility** | 100% Compatible with Apple VoiceOver |
 | **Platform** | macOS, iOS |
 
-## 🚫 Usage Restrictions
+## 🚫 Usage Terms
 
 | Permitted | Prohibited |
 |-----------|------------|
-| ✅ View Source Code | ❌ Commercial Use |
-| ✅ Personal Study | ❌ Redistribution |
-| ✅ Educational Review | ❌ Derivative Works |
+| ✅ View Source Code | ❌ Unauthorized Claims |
+| ✅ Personal Study | ❌ False Ownership Assertions |
+| ✅ Educational Review | ❌ Misrepresentation |
 
-## 📋 Detailed License Terms
+## ⚖️ Legal Standing
 
-### Intellectual Property Rights
-
-| Right | Status |
-|-------|--------|
-| **Ownership** | 100% Todd Bruss |
-| **Modification** | Not Allowed |
-| **Distribution** | Strictly Forbidden |
-
-### Technical Compliance
-
-| Aspect | Specification |
-|--------|---------------|
-| **Primary Language** | Swift |
-| **Secondary Language** | Objective-C |
-| **Accessibility Standard** | Full Apple VoiceOver Support |
-
-## ⚖️ Legal Consequences
-
-| Violation | Potential Action |
-|-----------|------------------|
-| Unauthorized Use | Legal Proceedings |
-| Code Misappropriation | Immediate Termination |
-| Breach of Terms | Potential Damages |
+| Aspect | Status |
+|--------|--------|
+| **Intellectual Property** | Fully Protected |
+| **Original Creation** | Confirmed |
+| **Third-Party Interference** | Unwarranted |
 
 ## 📞 Contact Information
 
 | Method | Details |
 |--------|---------|
 | **Repository** | [GitHub StarPlayrX](https://github.com/StarPlayrX/StarPlayrX) |
-| **Permissions** | Written Request Required |
+| **Inquiries** | Direct Communication Preferred |
 
 ---
 
-**⚠️ Accessing Source Code Implies Full Agreement to Terms**
+**⚠️ Source Code: 100% Original Work by Todd Bruss**
