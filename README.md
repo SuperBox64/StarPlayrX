@@ -1,5 +1,7 @@
 # 🚨 StarPlayrX macOS 1.3.1
 ## Doomsday Release
+- SiriusXM can beat down a star player
+- It will always get back up
 
 ## System Requirements
 - macOS 10.15 (Catalina) and later
