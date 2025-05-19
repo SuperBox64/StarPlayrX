@@ -1,4 +1,4 @@
-# 🚨 StarPlayrX macOS 1.3.1 Doomsday
+# 🚨 StarPlayrX 1.3.1 macOS 10.15 Doomsday Edition
 - StarPlayr Trademark is owned by NiceMac LLC
 - Licensed exclusively to StarPlayrX.com
 
