@@ -38,3 +38,5 @@
 - Available on Github Releases Side Bar
 
 **StarPlayrX Doomsday**: https://starplayrx.com
+
+(c) 2026 New Avengers DoomsDay, The SiriusXM Multiverse is unraveling 
