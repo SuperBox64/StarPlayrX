@@ -4,8 +4,9 @@
 
 ## Licensing
 - StarPlayr Trademark is owned by NiceMac LLC
-- Licensed exclusively to StarPlayrX.com
-- NiceMac LLC is not associated with SiriusXM, Pandora or its subsidiaries
+- All material is Copyright 2025-2026 by StarPlayrX.com
+- This trademark is licensed exclusively to StarPlayrX.com
+- NiceMac LLC is not associated with SiriusXM or its subsidiaries
 
 ## System Requirements
 - macOS 10.15 (Catalina) and later
