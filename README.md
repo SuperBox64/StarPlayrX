@@ -1,9 +1,8 @@
 # 🚨 StarPlayrX Removed from App Store
-https://starplayrx.com
 
 ## Clarification of Ownership and Integrity
 
-**Important Notice:** No Infringement Occurred
+**Official Statement:** [https://starplayrx.com](https://starplayrx.com)
 
 ---
 
@@ -16,14 +15,18 @@ https://starplayrx.com
 | Category | Key Point | Details | Status |
 |----------|-----------|---------|--------|
 | **Ownership** | Original Author | Todd Bruss | 100% Exclusive |
+| **Trademark** | StarPlayrX Brand | Owned by NiceMac LLC | Registered |
+| **Source Code Ownership** | Intellectual Rights | Owned by NiceMac LLC and StarPlayrX | Confirmed |
 | **Legal Standing** | Intellectual Property | Fully Protected | Zero Infringement |
 | **SiriusXM Involvement** | Rights & Authorship | No Claims | Unwarranted |
 | **Code Origin** | Development | Solely Created by Todd Bruss | Confirmed |
-| **Language Composition** | Technical Specification | 90% Swift, 10% Objective-C | Verified |
-| **Accessibility** | Platform Compliance | 100% Apple VoiceOver Compatible | Certified |
+| **Language Composition** | Source Code | 90% Swift, 10% Objective-C | Verified |
+| **Accessibility** | VoiceOver Compatibility | 100% Apple VoiceOver Support | Certified |
 | **Platforms** | Supported Systems | macOS, iOS | Full Support |
 | **Usage Terms** | Permitted Actions | Personal Study, Educational Review | Allowed |
 | **Restrictions** | Prohibited Actions | Unauthorized Claims, Misrepresentation | Enforced |
+| **Accessibility** | Screen Reader Support | 100% VoiceOver Compatible | Full Compliance |
+| **Official Website** | Statement Location | [https://starplayrx.com](https://starplayrx.com) | Active |
 | **Contact** | Communication | Direct Inquiries Preferred | Open |
 | **Repository** | Source Location | [GitHub StarPlayrX](https://github.com/StarPlayrX/StarPlayrX) | Active |
 
