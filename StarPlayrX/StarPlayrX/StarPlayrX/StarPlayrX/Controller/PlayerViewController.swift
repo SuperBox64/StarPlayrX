@@ -496,9 +496,14 @@ class PlayerViewController: UIViewController, AVRoutePickerViewDelegate  {
             Player.shared.syncArt()
         //}
         
-    #if !targetEnvironment(simulator)
-        VolumeSlider.setValue(ap2, animated: false)
-    #endif
+#if !targetEnvironment(simulator)
+    if !isMacCatalystApp, let ap2 = Player.shared.avSession.outputVolume as Float?  {
+        DispatchQueue.main.async {
+            self.VolumeSlider.setValue(ap2, animated: false)
+            self.setSpeakers(value: ap2)
+        }
+    }
+#endif
         
         title = g.currentChannelName
         startup()

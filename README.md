@@ -1,16 +1,18 @@
-# 🚨 StarPlayrX Removed from App Store
+# 🚨 StarPlayrX Removed from App Store by SiriusXM
 
 ## Clarification of Ownership and Integrity
 
 **Official Statement:** [https://starplayrx.com](https://starplayrx.com)
 
 ---
+Open the SPX workspace in Xcode 16
+---
 
 # 📜 StarPlayrX Source Code License
 
 > **Copyright © 2025, StarPlayrX.com, All Rights Reserved.**
 
-## 🔍 Comprehensive Project Overview
+## 🔍 Project Overview
 
 | Category | Key Point | Details | Status |
 |----------|-----------|---------|--------|

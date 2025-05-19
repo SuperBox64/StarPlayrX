@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:StarPlayrX"
+      name = "StarPlayrX">
+      <FileRef
+         location = "group:LICENSE">
+      </FileRef>
+      <Group
+         location = "group:StarPlayrX"
+         name = "StarPlayrX">
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <Group
+            location = "group:StarPlayrX"
+            name = "StarPlayrX">
+            <Group
+               location = "group:StarPlayrX"
+               name = "StarPlayrX">
+               <Group
+                  location = "group:GTCola"
+                  name = "GTCola">
+                  <FileRef
+                     location = "group:GTCola.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:StarPlayrX-Bridging-Header.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GTSodaPop.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GTCola.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GTSodaPop.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Assets.xcassets">
+               </FileRef>
+               <Group
+                  location = "group:Delegate"
+                  name = "Delegate">
+                  <FileRef
+                     location = "group:AppDelegate.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SceneDelegate.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Controller"
+                  name = "Controller">
+                  <FileRef
+                     location = "group:ChannelsViewController.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SiriusViewController.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TabViewController.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SplitViewController.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PlayerViewController.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:LoginViewController.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:StarPlayrX.entitlements">
+               </FileRef>
+               <Group
+                  location = "group:Model"
+                  name = "Model">
+                  <FileRef
+                     location = "group:Networkabilty.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Global.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Sync.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Extensions.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Draw.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Async.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Player.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:View"
+                  name = "View">
+                  <Group
+                     location = "group:Base.lproj"
+                     name = "Base.lproj">
+                     <FileRef
+                        location = "group:LaunchScreen.storyboard">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Main.storyboard">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:Data"
+                  name = "Data">
+                  <FileRef
+                     location = "group:bluenumbers.dms">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:StarPlayrX.xcodeproj">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:StarPlayrRadioKit">
+   </FileRef>
+   <FileRef
+      location = "group:SwifterLite">
+   </FileRef>
+</Workspace>
