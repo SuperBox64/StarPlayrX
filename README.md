@@ -2,8 +2,8 @@
 ## Doomsday Release
 - SiriusXM beat down a Star Player
 - This isn't the first time Gary
-- History always repeats itself
-- Remember the first StarPlayr Nicemac (c) 2009
+- History repeated itself
+- Remember the first StarPlayr Nicemac LLC 3-20-2009
 
 ## System Requirements
 - macOS 10.15 (Catalina) and later
