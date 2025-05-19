@@ -1,5 +1,5 @@
 # 🚨 StarPlayrX 1.3.1
-- macOS 10.15
+- macOS Only
 - Doomsday Edition
 
 ## Licensing
