@@ -1,4 +1,4 @@
-# 🚨 StarPlayrX Has Been Removed from the App Store
+# 🚨 StarPlayrX Has Been Removed from the App Store 
 
 ## Following Actions from SiriusXM Holdings Inc.
 
