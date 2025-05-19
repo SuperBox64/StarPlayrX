@@ -1,4 +1,4 @@
-# 🚨 StarPlayrX Mac Catalyst Doomsday Release
+# 🚨 StarPlayrX macOS Catalyst Doomsday Release
 
 ## System Requirements
 - macOS 10.15 (Catalina) and later
