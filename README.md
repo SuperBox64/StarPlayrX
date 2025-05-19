@@ -1,9 +1,7 @@
 # 🚨 StarPlayrX macOS 1.3.1
 ## Doomsday Release
-- SiriusXM beat down a Star Player
 - This isn't the first time Gary
-- History repeated itself
-- Remember the first StarPlayr Nicemac LLC 3-20-2009
+- Remember the first StarPlayr Nicemac LLC
 
 ## System Requirements
 - macOS 10.15 (Catalina) and later
