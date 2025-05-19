@@ -34,7 +34,6 @@
 - Internet connection mandatory for streaming
 
 ## 📦 Deployment
-- App Store Availability: N/A
-- Direct Distribution: Available via Github releases
+- Github Releases
 
 **Full Changelog**: https://github.com/SuperBox64/StarPlayrX/commits/1.3.1
