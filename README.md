@@ -1,8 +1,8 @@
-# 🚨 StarPlayrX Has Been Removed from the App Store 
+# 🚨 StarPlayrX Removed from App Store
 
-## Following Actions from SiriusXM Holdings Inc.
+## SiriusXM Holdings Inc. Action
 
-**Official Statement:** [View Removal Statement](https://starplayrx.com)
+**Official Statement:** [View Removal Details](https://starplayrx.com)
 
 ---
 
@@ -10,58 +10,55 @@
 
 > **Copyright © 2025, Todd Bruss. All Rights Reserved.**
 
-## 🔍 Preamble
+## 🔍 Project Specifications
 
-The source code for StarPlayrX is made available for **personal review and educational purposes** under strict conditions.
+| Technical Detail | Description |
+|-----------------|-------------|
+| **Language Composition** | 90% Swift, 10% Objective-C |
+| **Accessibility** | 100% Compatible with Apple VoiceOver |
+| **Platform** | macOS, iOS |
 
-## 1. 📋 Licensing Terms
+## 🚫 Usage Restrictions
 
-### a) Viewing and Personal Study
-- 👀 Source code may be viewed and studied for personal, non-commercial purposes
-- 🚫 Downloading does **not** grant rights to use, modify, or distribute
+| Permitted | Prohibited |
+|-----------|------------|
+| ✅ View Source Code | ❌ Commercial Use |
+| ✅ Personal Study | ❌ Redistribution |
+| ✅ Educational Review | ❌ Derivative Works |
 
-### b) Restrictions
-- 💼 Commercial use is **strictly prohibited** without explicit written permission
-- 🔒 Redistribution is not permitted
-- 🚧 No derivative works allowed without prior consent
+## 📋 Detailed License Terms
 
-## 2. 🔑 Permissions
+### Intellectual Property Rights
 
-### a) Limited Use
-- 📚 Review for educational or personal understanding only
-- ⛔ No executable or derivative work permitted
+| Right | Status |
+|-------|--------|
+| **Ownership** | 100% Todd Bruss |
+| **Modification** | Not Allowed |
+| **Distribution** | Strictly Forbidden |
 
-## 3. 💡 Intellectual Property
+### Technical Compliance
 
-### a) Copyright Protection
-- 👤 All rights exclusively reserved by Todd Bruss
-- ⚖️ Source code protected by copyright laws
+| Aspect | Specification |
+|--------|---------------|
+| **Primary Language** | Swift |
+| **Secondary Language** | Objective-C |
+| **Accessibility Standard** | Full Apple VoiceOver Support |
 
-## 4. ⚠️ Disclaimer of Warranty
+## ⚖️ Legal Consequences
 
-### a) "AS IS" Provision
-- 🛡️ Provided without any warranties
-- 🤷‍♂️ No guarantees of functionality or suitability
+| Violation | Potential Action |
+|-----------|------------------|
+| Unauthorized Use | Legal Proceedings |
+| Code Misappropriation | Immediate Termination |
+| Breach of Terms | Potential Damages |
 
-### b) Limitation of Liability
-- 🚫 No liability for damages from use or inability to use
+## 📞 Contact Information
 
-## 5. 🏁 Termination
-
-### a) Immediate Revocation
-- 🔒 Right to revoke access at any time
-- ⚔️ Unauthorized use results in immediate termination
-
-## 6. 📝 Compliance
-
-### a) Legal Consequences
-- ⚖️ Violations may result in legal action
-- 🚫 Unauthorized use strictly prohibited
-
-## 7. 📞 Contact
-
-**Inquiries:** [GitHub Repository](https://github.com/StarPlayrX/StarPlayrX)
+| Method | Details |
+|--------|---------|
+| **Repository** | [GitHub StarPlayrX](https://github.com/StarPlayrX/StarPlayrX) |
+| **Permissions** | Written Request Required |
 
 ---
 
-**⚠️ By accessing this source code, you agree to these terms.**
+**⚠️ Accessing Source Code Implies Full Agreement to Terms**
