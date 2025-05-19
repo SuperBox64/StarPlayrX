@@ -1,12 +1,6 @@
 # 🚨 StarPlayrX 1.3.1
 - macOS Doomsday Edition
 
-## Licensing
-- StarPlayr Trademark is owned by NiceMac LLC
-- All material is Copyright 2025-2026 by StarPlayrX.com
-- This trademark is licensed exclusively to StarPlayrX.com
-- NiceMac LLC is not associated with SiriusXM or its subsidiaries
-
 ## System Requirements
 - macOS 10.15 (Catalina) and later
 - Mac with Apple Silicon or Intel processor
@@ -44,6 +38,12 @@
 - Signed and Notarized by Apple
 - Available on Github Releases Side Bar
 
+## Licensing
+- StarPlayr Trademark is owned by NiceMac LLC
+- All material is Copyright 2025-2026 by StarPlayrX.com
+- This trademark is licensed exclusively to StarPlayrX.com
+- NiceMac LLC is not associated with SiriusXM or its subsidiaries
+
 **StarPlayrX Doomsday**: https://starplayrx.com
 
-Don't be a slacker, be a star player.
+Don't be a slacker, be a Star Player.
