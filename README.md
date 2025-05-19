@@ -1,4 +1,5 @@
 # 🚨 StarPlayrX Removed from App Store
+https://starplayrx.com
 
 ## Clarification of Ownership and Integrity
 
@@ -61,3 +62,5 @@
 ---
 
 **⚠️ Swift Source Code: 100% Original Work by Todd Bruss**
+https://starplayrx.com
+
