@@ -2,7 +2,7 @@
 - macOS Doomsday Edition
 
 ## System Requirements
-- macOS 10.15 (Catalina) and later
+- macOS 12.5 and later
 - Mac with Apple Silicon or Intel processor
 - Valid SiriusXM subscription
 
