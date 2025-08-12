@@ -22,7 +22,7 @@
 ## 🔧 Technical Specifications
 - Primary Language: Swift (90%)
 - Secondary Language: Objective-C (10%)
-- Platforms: macOS, ~~iOS~~, ~~iPadOS~~
+- Platforms: macOS, (iOS, iPadOS, must build locally)
 - Development: Xcode 16 Workspace
 
 ## 🚀 Performance Highlights
