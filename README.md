@@ -1,3 +1,8 @@
+Update: macOS 26 static, hisses and popping sounds fix with AVPlayer,
+while playing run this in the terminal 
+`sudo killall coreaudiod`
+https://medium.com/tech-blog-today/how-to-fix-popping-sounds-on-macos-26-c2846fc65ad0
+
 # 🚨 StarPlayrX 1.3.1
 - macOS Doomsday Edition
 
