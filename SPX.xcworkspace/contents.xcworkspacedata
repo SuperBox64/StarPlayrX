@@ -4,9 +4,6 @@
    <Group
       location = "group:StarPlayrX"
       name = "StarPlayrX">
-      <FileRef
-         location = "group:LICENSE">
-      </FileRef>
       <Group
          location = "group:StarPlayrX"
          name = "StarPlayrX">
@@ -131,9 +128,6 @@
             </FileRef>
          </Group>
       </Group>
-      <FileRef
-         location = "group:README.md">
-      </FileRef>
    </Group>
    <FileRef
       location = "group:StarPlayrRadioKit">
