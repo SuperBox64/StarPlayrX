@@ -57,4 +57,4 @@ https://medium.com/tech-blog-today/how-to-fix-popping-sounds-on-macos-26-c2846fc
 
 Don't be a slacker, be a Star Player.
 
-F S X M for ignoring the visually impaired.
+F. S. X. M. for ignoring the visually impaired.
