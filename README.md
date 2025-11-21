@@ -1,3 +1,5 @@
+Important: StarPlayrX was developed for the Visually Impaired, a group of paying subscribers that SiriusXM has classsically ignored.
+
 Update: macOS 26 static, hisses and popping sounds fix with AVPlayer,
 
 while playing run this in the terminal 
@@ -9,7 +11,7 @@ https://medium.com/tech-blog-today/how-to-fix-popping-sounds-on-macos-26-c2846fc
 - macOS Doomsday Edition
 
 ## System Requirements
-- macOS 12.5 and later
+- macOS 14.5 and later
 - Mac with Apple Silicon or Intel processor
 - Valid SiriusXM subscription
 
